@@ -1,0 +1,83 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<environment include="Development">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/Index.css" />
+</environment>
+
+<body>
+
+@*<div class="border">
+        <div class="SearchBar">
+            <input style="height: 32px; width: 704px;" type="text" placeholder="Search..." required>
+            <button style="height: 32px;" type="button">Søg opskrift</button>
+            <button style="height: 32px;" type="button">Søg ingrediens</button>
+            
+        </div>
+    </div>
+    
+
+
+<div class="Buttons2">
+            <button class="btn_Top" type="button"><a asp-area="" asp-page="/TopPicks">Top Retter</a></button>
+            <button class="btn_New" type="button"><a asp-area="" asp-page="/NewRecipe"> Nye retter</a></button>
+            <button class="btn_Su" type="button"><a asp-area="" asp-page="/SuRecipe"> SU-retter</a></button>
+            <button class="btn_Vegi" type="button"><a asp-area="" asp-page="/Vegi">Vegetar retter</a></button>
+            <button class="btn_Classic" type="button"><a asp-area="" asp-page="/ClassicRecipe">Klassiske retter</a></button>
+            <button class="btn_Store" type="button"><a asp-area="" asp-page="/Store">Vælg Butik</a></button>
+
+        </div>
+<ul>
+    <li>
+        <input type="checkbox" id="cb1" />
+        <label for="cb1"><img src="/Pic/Netto.png" /></label>
+    </li>
+    <li>
+        <input type="checkbox" id="cb2" />
+        <label for="cb2"><img src="/Pic/Foetex.png" /></label>
+    </li>
+    <br>
+    <li>
+        <input type="checkbox" id="cb3" />
+        <label for="cb3"><img src="/Pic/Rema.jpg" /></label>
+    </li>
+    <li>
+        <input type="checkbox" id="cb4" />
+        <label for="cb4"><img src="/Pic/Fakta.png" /></label>
+    </li>
+</ul>
+        <p style="clear:both"><br></p>
+
+<div class="antalPersoner">
+    <select>
+        <option value="0">Antal Personer:</option>
+        <option value="1">1 Person</option>
+        <option value="2">2 Person</option>
+        <option value="3">3 Person</option>
+        <option value="4">4 Person</option>
+        <option value="5">5 Person</option>
+        <option value="6">6 Person</option>
+        <option value="7">7 Person</option>
+        <option value="8">8 Person</option>
+        <option value="9">9 Person</option>
+        <option value="10">10 Person</option>
+
+    </select>
+</div>
+    
+    *@
+
+<div style="font-size: 150px" class="border2">
+
+    <h1>Ugens tilbud</h1>
+
+<div class="pic">
+            <img src="https://vielskermad.dk/wp-content/uploads/2018/03/lasagne.jpg" alt="Lasange" height="400" width="600">
+        </div>
+
+</body>

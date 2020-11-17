@@ -1,0 +1,435 @@
+﻿/*/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.user {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+.Login {
+    display: block;
+}
+
+
+.user {
+    display: inline-block;
+    position: center;
+    float: right;
+    white-space: nowrap;
+}
+
+.Login a {
+    display: block;
+    padding: 15px 32px;
+}
+
+.Create_user {
+    display: inline-block;
+    position: center;
+    float: right;
+    white-space: nowrap;
+}
+
+.Create_user a {
+    display: block;
+    padding: 15px 32px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.btn_Top {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px; /* Laver den runde kant */
+    font-size: 16px;
+    float: left;
+    box-shadow: 0 9px #999;
+    display: block;
+    margin: 2px;
+    font-size: 16px;
+}
+
+    .btn_Top a {
+        display: block;
+        padding: 15px 32px;
+    }
+
+    .btn_Top:active {
+        background-color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.btn_New {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px; /* Laver den runde kant */
+    font-size: 16px;
+    float: left;
+    box-shadow: 0 9px #999;
+    font-size: 16px;
+    margin: 2px;
+}
+
+    .btn_New a {
+        display: block;
+        padding: 15px 32px;
+    }
+
+    .btn_New:active {
+        background-color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.btn_Su {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px; /* Laver den runde kant */
+    font-size: 16px;
+    float: left;
+    box-shadow: 0 9px #999;
+    font-size: 16px;
+    margin: 2px;
+}
+
+    .btn_Su a {
+        display: block;
+        padding: 15px 32px;
+    }
+
+    .btn_Su:active {
+        background-color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.btn_Vegi {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px; /* Laver den runde kant */
+    font-size: 16px;
+    float: left;
+    box-shadow: 0 9px #999;
+    font-size: 16px;
+    margin: 2px;
+}
+
+    .btn_Vegi a {
+        display: block;
+        padding: 15px 32px;
+    }
+
+    .btn_Vegi:active {
+        background-color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.btn_Classic {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px; /* Laver den runde kant */
+    font-size: 16px;
+    float: left;
+    box-shadow: 0 9px #999;
+    font-size: 16px;
+    margin: 2px;
+}
+
+    .btn_Classic a {
+        display: block;
+        padding: 15px 32px;
+    }
+
+    .btn_Classic:active {
+        background-color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+.btn_Store {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px; /* Laver den runde kant */
+    font-size: 16px;
+    float: left;
+    box-shadow: 0 9px #999;
+    font-size: 16px;
+    margin: 2px;
+}
+
+    .btn_Store a {
+        display: block;
+        padding: 15px 32px;
+    }
+
+    .btn_Store:active {
+        background-color: white;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+a:hover {
+    cursor: pointer; /* Ændre musen når den holdes over en knap */
+}
+
+
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+input[type="checkbox"][id^="cb"] {
+    display: none;
+}
+
+label {
+    border: 1px solid #fff;
+    padding: 6px;
+    display: block;
+    position: relative;
+    margin: 2px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+    label:before {
+        background-color: white;
+        color: white;
+        content: " ";
+        display: block;
+        border-radius: 50%;
+        border: 1px solid grey;
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 28px;
+        transition-duration: 0.4s;
+        transform: scale(0);
+        float: right;
+    }
+
+    label img {
+        height: 10%;
+        width: 45px;
+        transition-duration: 0.2s;
+        transform-origin: 50% 50%;
+    }
+
+:checked + label {
+    border-color: #ddd;
+}
+
+    :checked + label:before {
+        content: "✓";
+        background-color: grey;
+        transform: scale(0.6);
+    }
+
+    :checked + label img {
+        transform: scale(0.7);
+        box-shadow: 0 0 2px #333;
+        z-index: -1;
+    }
+
+.border2 {
+    float: left;
+}
+
+.antalPersoner {
+    float: right;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    max-width: 65%;
+    margin: auto;
+    position: relative;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+.logo {
+    color: black;
+    font-size: 25px;
+    font-family: verdana;
+    text-align: left;
+    margin-top: 0px;
+    float: left;
+    margin: 0px;
+    line-height: 50px;
+    padding-left: 9px;
+}
+
+.SearchBar {
+    color: black;
+    font-size: 16px;
+    font-family: verdana;
+    text-align: left;
+    margin-top: 0px;
+    float: left;
+    margin: 0px;
+    line-height: 40px;
+    padding-left: 9px;
+}
+
+.SearchBarBtn {
+    color: black;
+    font-size: 16px;
+    margin-top: 0px;
+    float: left;
+    margin: 4px;
+    padding-left: 6px;
+}
+
+.UserBtn {
+    color: black;
+    font-size: 16px;
+    margin-top: 0px;
+    float: right;
+    margin: 4px;
+    padding-left: 6px;
+    position: relative;
+}
+
+.sidenav {
+    float: right;
+    right: 0px;
+    width: 165px;
+}
+
+.antalPersoner {
+    margin-right: 15%;
+}
+
+.CheckboxDishes {
+    color: white;
+}
